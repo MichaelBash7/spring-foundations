@@ -16,7 +16,5 @@ public class CoffeeHouseImpl implements CoffeeHouse{
         double convertPrice = Double.parseDouble(price);
         System.out.println(price + " has paid, we're preparing your coffee...");
         System.out.println("Your " + coffeeService.getCoffeeByPrice(convertPrice) + " is ready! Have a nice day");
-
-
     }
 }

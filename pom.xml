@@ -12,6 +12,7 @@
         <module>core</module>
         <module>programmer-app-xml-config</module>
         <module>core-homework</module>
+        <module>core-java-based</module>
     </modules>
 
     <properties>
