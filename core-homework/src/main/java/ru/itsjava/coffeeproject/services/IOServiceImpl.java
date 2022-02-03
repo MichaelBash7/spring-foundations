@@ -14,7 +14,7 @@ public class IOServiceImpl implements IOService{
 
     @SneakyThrows
     @Override
-    public double input() {
-        return reader.read();
+    public String input() {
+        return reader.readLine();
     }
 }

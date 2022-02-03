@@ -12,9 +12,10 @@ public class CoffeeHouseImpl implements CoffeeHouse{
 
         System.out.println("Hello! Our Coffee House menu: Espresso - 100.0 rub, Cappuccino - 200.0 rub");
         System.out.println("Enter a price:");
-        double price = ioService.input();
+        String price = ioService.input();
+        double convertPrice = Double.parseDouble(price);
         System.out.println(price + " has paid, we're preparing your coffee...");
-        System.out.println("Your " + coffeeService.getCoffeeByPrice(price) + " is ready! Have a nice day");
+        System.out.println("Your " + coffeeService.getCoffeeByPrice(convertPrice) + " is ready! Have a nice day");
 
 
     }
