@@ -10,6 +10,6 @@ public class Notebook {
 
     @Override
     public String toString() {
-        return "Notebook {" + firm + " " + model + " " + year + "}";
+        return "Notebook{ " + firm + " " + model + " " + year + "}";
     }
 }
