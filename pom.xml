@@ -16,6 +16,8 @@
         <module>programmer-app-java-based-config</module>
         <module>coffeehouse-app-java-based-config</module>
         <module>core-annotation-based</module>
+        <module>programmer-app-annotation-based-config</module>
+        <module>coffeehouse-app-java-annotation-based-config</module>
     </modules>
 
     <properties>
