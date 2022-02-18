@@ -1,6 +1,6 @@
 package ru.itsjava;
 
-import org.springframework.context.ApplicationContext;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -16,7 +16,6 @@ public class Main {
 //        System.out.println(farmer1);
 //        System.out.println(farmer2);
 //        System.out.println("(farmer1 == farmer2) = " + (farmer1 == farmer2));
-
 
         context.close();
 
