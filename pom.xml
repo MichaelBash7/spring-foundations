@@ -22,6 +22,7 @@
         <module>proxy</module>
         <module>aop</module>
         <module>coffeehouse-app-aop</module>
+        <module>spring-potroshitel</module>
     </modules>
 
     <properties>
